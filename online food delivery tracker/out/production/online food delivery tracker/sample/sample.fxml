@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="83.0" prefHeight="334.0" prefWidth="732.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="236.0" layoutY="74.0" prefHeight="21.0" prefWidth="228.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Pobeda Bold" size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_field" layoutX="236.0" layoutY="120.0" prefHeight="35.0" prefWidth="228.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Pobeda Bold" size="20.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="246.0" layoutY="6.0" text="Авторизация" textFill="#a8a8a8">
+               <font>
+                  <Font name="Pobeda Bold" size="46.0" />
+               </font>
+            </Label>
+            <Button fx:id="authSignButton" layoutX="310.0" layoutY="173.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="Pobeda Bold" size="24.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label layoutX="225.0" layoutY="14.0" text="Войти в систему" textFill="WHITE">
+         <font>
+            <Font name="Pobeda Bold" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="LoginSignUpButton" layoutX="565.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="WHITE">
+         <font>
+            <Font name="Pobeda Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
